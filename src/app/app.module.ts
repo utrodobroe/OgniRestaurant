@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -13,7 +14,8 @@ import { BasketComponent } from './components/basket/basket.component';
 
 const appRouts: Routes = [
   {path: '',component:HomePageComponent},
-  {path: '/delivery',component:DeliveryComponent}
+  {path: 'delivery',component:DeliveryComponent},
+  {path: 'basket',component:BasketComponent}
   ]
 
 @NgModule({
@@ -28,6 +30,7 @@ const appRouts: Routes = [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    ReactiveFormsModule,
     RouterModule.forRoot(appRouts)
   ],
   providers: [],
