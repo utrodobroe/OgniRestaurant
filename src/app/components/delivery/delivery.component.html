@@ -1,4 +1,4 @@
 <div class="container" *ngFor = "let product of products">
-<p>{{product.name}}</p>
-<button (click) = 'addToCart(product)'>Купить</button>
+<h3><a [title] = "product.name + ' details'">{{product.name}}</a></h3>
+<button (click) = 'addToCart()'>Купить</button>
 </div>

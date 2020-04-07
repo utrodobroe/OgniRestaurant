@@ -11,6 +11,7 @@ import { CartService } from 'src/app/cart.service';
 })
 export class DeliveryComponent implements OnInit {
   products = products;
+  
 
 
   constructor(
@@ -23,9 +24,9 @@ export class DeliveryComponent implements OnInit {
     
     }
 
-  ngOnInit(): void {
+  ngOnInit(): void { }
    
 
   }
 
-}
+

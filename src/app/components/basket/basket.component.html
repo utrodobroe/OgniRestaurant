@@ -1,3 +1,4 @@
 <div class="cart-item" *ngfor = "let item of items">
-    <p>{{item.name}}</p>
+    <span>{{ item.name }} </span>
+  <span>{{ item.price | currency }}</span>
 </div>
