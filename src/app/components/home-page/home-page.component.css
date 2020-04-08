@@ -1,0 +1,45 @@
+.backgd{
+    height: 900px;
+    background-color: black;
+    color: white;
+}
+
+.backgd__img{
+    width: 350px;
+    height: 300px;
+    position: relative;
+    left: 800px;
+    border-radius: 100px;
+    opacity: 0.4;
+}
+
+.introduction{
+    position: relative;
+    top: 300px;
+    color: white;
+    width: 680px;
+    left: 20px;
+}
+
+.introduction__heading{
+    border-bottom: 3px solid rgb(109, 0, 0);
+    width: 167px;
+}
+
+.location{
+    position: relative;
+    top: 200px;
+    font-style: normal;
+    left: 20px;
+    width: 700px;
+}
+
+.location__src{
+    text-decoration: none;
+    color: white;
+}
+
+.phone{
+    position: relative;
+    left: 50px;
+}
