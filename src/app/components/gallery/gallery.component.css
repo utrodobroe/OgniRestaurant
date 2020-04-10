@@ -1,0 +1,40 @@
+.slider {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+
+.interesting {
+    bottom: -100px;
+    position: relative;
+    width: 450px;
+    display: inline-flex;
+    padding-left: 31px;
+    flex-flow: row nowrap;
+}
+
+.interesting__img {
+    width: 400px;
+    height: 450px;
+    margin-left: 20px;
+}
+
+.interesting__img-2 {
+    width: 400px;
+    height: 450px;
+    margin-left: 20px;
+}
+
+.btn {
+    position: relative;
+    z-index: 2;
+    bottom: 20px;
+}
+
+.btn__forward {
+    left: 20px;
+}
+
+.btn__back {
+    left: 20px;
+}

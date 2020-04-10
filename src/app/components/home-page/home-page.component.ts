@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class HomePageComponent implements OnInit {
 
   logo = {
-    image:'assets/images/_zoom.jpg'
+    image: 'assets/images/_zoom.jpg'
   }
 
   constructor() { }

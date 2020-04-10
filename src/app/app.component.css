@@ -1,4 +1,4 @@
-.menu__nav{
+.menu__nav {
     width: 100%;
     height: 70px;
     background-color: rgb(52, 78, 110);
@@ -6,9 +6,9 @@
     opacity: 1;
     z-index: 1;
     display: block;
-  }
-  
-  .controlPanel{
+}
+
+.controlPanel {
     position: relative;
     top: 23px;
     margin-left: 100px;
@@ -18,44 +18,42 @@
     color: black;
     transition: all 0.6s;
     left: 450px;
-  }
+}
 
-  
-  .controlPanel::before{
-        content: "";
-        width: 0;
-        height: 0.1em;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        background: rgb(228, 189, 131);
-        transition: all 0.6s;
-  }
-  
-  .controlPanel:hover::before{
+.controlPanel::before {
+    content: "";
+    width: 0;
+    height: 0.1em;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgb(228, 189, 131);
+    transition: all 0.6s;
+}
+
+.controlPanel:hover::before {
     width: 100%;
     left: 0;
     background: rgb(228, 189, 131);
-  }
+}
 
-  .controlPanel:hover{
+.controlPanel:hover {
     color: rgb(228, 189, 131);
     transition: 0.6s;
-  }
+}
 
-  .RestLogo{
-      font-family: 'Times New Roman', Times, serif;
-      position: absolute;
-      font-size: 45px;
-      top: 22px;
-      left: 20px;
-      color: rgb(228, 189, 131);
-      cursor: pointer;
-  }
+.RestLogo {
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    font-size: 45px;
+    top: 22px;
+    left: 20px;
+    color: rgb(228, 189, 131);
+    cursor: pointer;
+}
 
-  .RestLogo__rest{
+.RestLogo__rest {
     font-size: 14px;
     font-variant: small-caps;
     left: 35px;
-  }
-  
+}
