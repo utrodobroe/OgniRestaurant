@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { foods } from 'src/app/foods';
-import { NgStyle } from '@angular/common';
+import { foods,  } from 'src/app/foods';
 
 @Component({
   selector: 'app-gallery',
@@ -9,9 +8,15 @@ import { NgStyle } from '@angular/common';
 })
 export class GalleryComponent implements OnInit {
   foods = foods;
-  leftValue:1000;
 
-  
+  leftValue = 0;
+
+  toggle() {
+    this.leftValue += 1000;
+  }
+  toggle2(){
+    this.leftValue -= 1000;
+  }
   
 
 

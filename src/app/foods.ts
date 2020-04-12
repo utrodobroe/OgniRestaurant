@@ -11,3 +11,4 @@ export const foods = [
         name:'../assets/images/Geranium_food — копия.jpg'
     }
 ]
+

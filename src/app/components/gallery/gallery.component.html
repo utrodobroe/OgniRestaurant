@@ -1,8 +1,7 @@
 <div class="slider">
     <section class="interesting" *ngFor="let food of foods">
-        <img class="interesting interesting__img" [src]="food.name">
-        <img class="interesting interesting__img-2" *ngStyle="{left: '{{leftValue}}'}" [src]=" food.name ">
+        <img class="interesting interesting__img" [ngStyle]="{'left.px': leftValue}" [src]="food.name">
     </section>
-    <button class="btn btn__forward ">вперёд</button>
-    <button class="btn btn__back ">назад</button>
+    <button class="btn" (click)="toggle()">вперёд</button>
+    <button class="btn" (click)="toggle2()">назад</button>
 </div>

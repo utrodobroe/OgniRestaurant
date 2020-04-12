@@ -7,7 +7,7 @@
 .interesting {
     bottom: -100px;
     position: relative;
-    width: 450px;
+    width: max-content;
     display: inline-flex;
     padding-left: 31px;
     flex-flow: row nowrap;
@@ -19,16 +19,10 @@
     margin-left: 20px;
 }
 
-.interesting__img-2 {
-    width: 400px;
-    height: 450px;
-    margin-left: 20px;
-}
-
 .btn {
     position: relative;
     z-index: 2;
-    bottom: 20px;
+    bottom: 200px;
 }
 
 .btn__forward {
@@ -37,4 +31,8 @@
 
 .btn__back {
     left: 20px;
+}
+
+.slide {
+    top: 100px;
 }
