@@ -1,4 +1,11 @@
-<div class="container" *ngFor = "let product of products">
-<h3><a [title] = "product.name + ' details'">{{product.name}}</a></h3>
-<button (click) = 'addToCart(product)'>Купить</button>
+<div class="delivery">
+    <img class="bgPavlova" [src]="pavlova.image">
+    <p class="delivery__greeting">
+        Доставка любимых блюд <br/><span class="ognirest"> Для Вас </span>
+    </p>
+</div>
+<hr class="line__greeting">
+<div class="menu menu__conteiner" *ngFor="let product of products">
+    <h3><a [title]="product.name">{{product.name}}</a><br>{{product.price}}</h3>
+    <button class="btn btn__add" (click)='addToCart(product)'>Купить</button>
 </div>

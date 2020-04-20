@@ -11,6 +11,10 @@ import { CartService } from 'src/app/cart.service';
 })
 export class DeliveryComponent implements OnInit {
   products = products;
+
+  pavlova = {
+    image:"../assets/images/pavlova.jpg"
+  }
   
 
 
